@@ -45,3 +45,47 @@ Exemplo:
 - Aplicações web e mobile
 
 - Scripts de automação
+  
+## Primeiro Passo: Criação da Camada de Apresentação (Presentation Layer)
+
+### O que é?
+
+A camada de apresentação é responsável por preparar, transformar e formatar os dados para garantir que possam ser compreendidos e transmitidos corretamente entre diferentes sistemas.
+Ela funciona como um tradutor universal, assegurando compatibilidade, segurança e legibilidade durante a comunicação entre dispositivos e aplicações.
+
+### Funções Principais da Camada de Apresentação
+
+#### Tradução e Formatação de Dados
+
+Converte informações entre diferentes formatos para que sistemas distintos possam interpretá-las corretamente.
+Exemplos:
+    
+- Traduzir EBCDIC → ASCII
+    
+- Garantir que caracteres especiais sejam exibidos corretamente
+    
+- Padronizar formatos de texto, imagens, vídeos e símbolos
+
+É como um intérprete que garante que todos os sistemas “falem a mesma língua”.
+
+#### Compactação de Dados
+
+Reduz o tamanho dos dados que serão enviados pela rede, otimizando o uso de banda.
+Benefícios:
+
+- Transmissão mais rápida
+
+- Menor consumo de rede
+
+- Melhor desempenho em conexões lentas
+
+#### Criptografia
+
+Protege a informação durante a transmissão, garantindo confidencialidade e segurança.
+Protocolos comuns:
+
+- TLS / SSL (como no HTTPS)
+
+- Criptografia simétrica e assimétrica
+
+- Codificações como Base64 (quando usada para transporte)
